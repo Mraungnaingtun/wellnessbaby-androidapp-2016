@@ -1,0 +1,53 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:id="@+id/mama"
+    android:layout_height="match_parent"
+    tools:context="com.team15.lower.wellnessbaby.Fragmetn.OneFragment"
+    android:background="@drawable/kar">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/kar_title"
+        android:textAlignment="center"
+        android:textSize="26dp"
+        android:textColor="@color/colorPrimary"
+        android:layout_centerVertical="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="5dp"/>
+
+    <TableRow
+        android:background="@drawable/border"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="64dp"
+        android:layout_above="@+id/calculate_medicine"
+        android:layout_alignLeft="@+id/calculate_medicine"
+        android:layout_alignStart="@+id/calculate_medicine"
+        android:id="@+id/tableRow">
+        <Spinner
+            android:id="@+id/age_spinner"
+            android:layout_width="210dp"
+            android:layout_height="70dp"
+            style="@android:style/Widget.Holo.Light.ListPopupWindow" />
+    </TableRow>
+
+    <Button
+        android:background="@drawable/border"
+        android:id="@+id/calculate_medicine"
+        android:layout_width="210dp"
+        android:layout_height="70dp"
+        android:text="ရွာရန္"
+        android:textSize="18dp"
+        android:drawableRight="@drawable/search"
+        android:paddingRight="10dp"
+        android:layout_marginBottom="179dp"
+        android:layout_marginRight="37dp"
+        android:layout_marginEnd="37dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+</RelativeLayout>

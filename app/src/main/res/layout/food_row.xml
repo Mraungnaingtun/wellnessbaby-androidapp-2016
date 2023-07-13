@@ -1,0 +1,44 @@
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardCornerRadius="12dp"
+    android:background="@color/nutrition_title"
+    app:cardElevation="4dp">
+
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/rllayout_food"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?android:attr/selectableItemBackground"
+        android:clickable="true"
+        android:focusable="true"
+        android:orientation="vertical"
+        android:paddingBottom="10dp"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:paddingTop="10dp">
+
+        <TextView
+            android:id="@+id/title_food"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:textColor="@color/nutrition_title"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            android:text="asdfsdfasdfasdfsdafdsfsdfds"/>
+
+        <TextView
+            android:id="@+id/genre_food"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/title_food"
+            android:maxLines="4"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            android:text="asdfasdfsd"/>
+
+    </RelativeLayout>
+</android.support.v7.widget.CardView>

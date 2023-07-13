@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/record_page"
+    android:background="@color/important_background">
+
+    <include layout="@layout/view_filp"></include>
+
+    <TextView
+        android:id="@+id/marquee"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="က်န္းမာဖြံျဖိဳးေသာကေလးမ်ား အနာဂတ္ဆီသို့"
+        android:textAlignment="center"
+        android:layout_marginTop="30dp"
+        android:textSize="30dp"
+        android:textColor="@color/important_back"
+        android:textStyle="italic|bold"
+        android:ellipsize="marquee"
+        android:gravity="center_horizontal" />
+
+    <include layout="@layout/first_row"/>
+    <include layout="@layout/second_row"/>
+    <include layout="@layout/third_row"/>
+
+
+
+</LinearLayout>

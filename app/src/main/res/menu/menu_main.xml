@@ -1,0 +1,32 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.team15.mainproject.MainActivity">
+
+
+    <item
+        android:id="@+id/menu_new"
+        android:orderInCategory="101"
+        android:title="@string/action_new"
+        app:showAsAction="never"/>
+
+
+    <item
+        android:id="@+id/choose"
+        android:orderInCategory="102"
+        android:title="@string/all_baby"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/update"
+        android:title="@string/update_letter"
+        android:orderInCategory="103"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/menu_exit"
+        android:orderInCategory="104"
+        android:title="@string/action_home"
+        app:showAsAction="never"/>
+
+</menu>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#01adc5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#000</color>
+    <color name="wellness_color">#272f80</color>
+
+    <color name="text_for_advice">#27b6e9</color>
+
+    <color name="main_background">#ffcbbd   </color>
+    <color name="register_background">#d84500</color>"
+
+
+    <color name="btn_color">#df3ffa</color>
+    <color name="health_background">#FF008EBE</color>
+
+    <color name="first_btnColor">#01adc5</color>
+    <color name="sec_btnColor">#4cb6ac</color>
+
+    <color name="important_background">#fcf5f5</color>
+    <color name="timeline_background">#F0E3AF</color>
+    <color name="night_color">#000000</color>
+    <color  name="nutrition_title">#4cb6ac</color>
+
+    <color name="timeline_back">#1ee8b8</color>
+    <color name="timeline_background1">#FF69EFCF</color>
+
+
+    <color name="important_back">#FF8A65</color>
+
+    <color name="entertainment_back">#ac47bd</color>
+
+    <color name="baby_name">#B2EBF2</color>
+
+    <color name="next_color">#03A9FA</color>
+
+    <color name="childright_back">#64B5F6</color>
+</resources>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/music_btn"
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:drawableLeft="@drawable/music_"
+        android:text="@string/music"
+        android:textSize="18dp"
+        android:paddingLeft="40dp"
+        android:paddingRight="300dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_above="@+id/book_btn"
+        android:background="@color/next_color"
+        android:textColor="#fff"/>
+
+    <Button
+        android:id="@+id/book_btn"
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:text="@string/story"
+        android:drawableLeft="@drawable/book"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="20dp"
+        android:paddingLeft="40dp"
+        android:paddingRight="320dp"
+        android:layout_marginRight="20dp"
+        android:layout_above="@+id/paint_btn"
+        android:background="@color/entertainment_back"
+        android:textColor="#fff"
+        android:textSize="18dp"/>
+
+    <Button
+        android:id="@+id/paint_btn"
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:drawableLeft="@drawable/paint_logo"
+        android:text="@string/draw"
+        android:textSize="18dp"
+        android:paddingLeft="40dp"
+        android:paddingRight="300dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="50dp"
+        android:layout_alignParentBottom="true"
+        android:background="#ff4081"
+        android:textColor="#fff"/>
+</RelativeLayout>

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.team15.lower.wellnessbaby.Play_Music">
+
+
+    <com.flaviofaria.kenburnsview.KenBurnsView
+        android:id="@+id/imageView2"
+        android:layout_width="match_parent"
+        android:layout_height="370dp"
+        android:src="@drawable/music_back"/>
+
+    <include layout="@layout/contant_music"></include>
+
+
+    <Button
+        android:id="@+id/first_song"
+        android:layout_width="match_parent"
+        android:layout_height="95dp"
+        android:text="အိပ္ယာ၀င္ပံုျပင္"
+        android:drawableRight="@drawable/play"
+        android:background="#CE93D5"
+        android:layout_below="@+id/imageView2"
+        android:layout_alignParentLeft="true"
+        android:textColor="#fff"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:id="@+id/second_song"
+        android:layout_width="match_parent"
+        android:layout_height="95dp"
+        android:text="အေမပုခတ္လြဲ"
+        android:drawableRight="@drawable/play"
+        android:background="#CE93D5"
+        android:layout_marginTop="3dp"
+        android:layout_below="@+id/first_song"
+        android:layout_alignParentLeft="true"
+        android:textColor="#fff"
+        android:layout_alignParentStart="true" />
+
+
+    <Button
+        android:id="@+id/third_song"
+        android:layout_width="match_parent"
+        android:layout_height="95dp"
+        android:text="အေမာေျပ"
+        android:layout_below="@+id/second_song"
+        android:layout_marginTop="3dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:drawableRight="@drawable/play"
+        android:textColor="#fff"
+        android:background="#CE93D5"/>
+
+
+    <Button
+        android:id="@+id/four_song"
+        android:layout_width="match_parent"
+        android:layout_height="95dp"
+        android:text="ဦးဦးပံုေျပာမယ္"
+        android:layout_below="@+id/third_song"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="3dp"
+        android:drawableRight="@drawable/play"
+        android:textColor="#fff"
+        android:background="#CE93D5"/>
+    <Button
+        android:id="@+id/five_song"
+        android:layout_width="match_parent"
+        android:layout_height="95dp"
+        android:text="ေမြးေန့ဆုေတာင္း"
+        android:layout_below="@+id/four_song"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="3dp"
+        android:textColor="#fff"
+        android:drawableRight="@drawable/play"
+        android:background="#CE93D5"/>
+
+</RelativeLayout>
+

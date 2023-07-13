@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ViewFlipper android:id="@+id/view_flipper"
+    android:layout_width="match_parent"
+    android:layout_height="350dp"
+    android:flipInterval="3000"
+    android:scaleType="fitXY"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="350dp">
+
+        <ImageView
+            android:id="@+id/first_image"
+            android:layout_width="match_parent"
+            android:layout_height="350dp"
+            android:src="@drawable/baby1"
+            android:scaleType="centerCrop"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="350dp">
+        <ImageView
+            android:id="@+id/second_image"
+            android:layout_width="match_parent"
+            android:layout_height="350dp"
+            android:src="@drawable/baby2"
+            android:scaleType="centerCrop"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="350dp">
+        <ImageView
+            android:id="@+id/thi_image"
+            android:layout_width="match_parent"
+            android:layout_height="350dp"
+            android:src="@drawable/baby3"
+            android:scaleType="centerCrop"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="350dp">
+        <ImageView
+            android:id="@+id/third_image"
+            android:layout_width="match_parent"
+            android:layout_height="350dp"
+            android:src="@drawable/baby4"
+            android:scaleType="centerCrop"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="350dp">
+        <ImageView
+            android:id="@+id/last_image"
+            android:layout_width="match_parent"
+            android:layout_height="350dp"
+            android:src="@drawable/baby5"
+            android:scaleType="centerCrop"/>
+    </LinearLayout>
+</ViewFlipper>

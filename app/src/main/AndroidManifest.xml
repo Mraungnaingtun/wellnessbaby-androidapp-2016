@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.team15.lower.wellnessbaby">
+
+    <uses-sdk android:minSdkVersion="21" />
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <uses-permission android:name="android.permission.CALL_PHONE"/>
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+    <uses-permission android:name="android.permission.SEND_SMS" />
+
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="true" />
+
+    <!-- To access Google+ APIs: -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+
+    <application
+        android:name="android.support.multidex.MultiDexApplication"
+        android:allowBackup="true"
+        android:icon="@drawable/mon_child"
+        android:label="@string/app_name"
+        android:supportsRtl="true">
+        <activity
+            android:name=".Welcome"
+            android:label="@string/app_name"
+            android:screenOrientation="userPortrait"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:screenOrientation="userPortrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Login_package.Registernew"
+            android:screenOrientation="userPortrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Health_Activity"
+            android:label="က်န္းမာေရး"
+            android:parentActivityName=".MainActivity"
+            android:screenOrientation="userPortrait"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".Nutrition_Activity"
+            android:label="အာဟာရ"
+            android:parentActivityName=".MainActivity"
+            android:screenOrientation="userPortrait"
+            android:theme="@style/AppTheme1" />
+        <activity
+            android:name=".TimeLine"
+            android:label="ကိုယ္ေရးအက်ဥ္း"
+            android:screenOrientation="userPortrait"
+            android:theme="@style/AppTheme2">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
+        <activity
+            android:name=".Knowledge"
+            android:label="ဗဟုသုတ"
+            android:parentActivityName=".MainActivity"
+            android:screenOrientation="userPortrait"
+            android:theme="@style/AppTheme3" />
+        <activity
+            android:name=".Ententainment_Activity"
+            android:label="ေဖ်ာ္ေျဖေရး"
+            android:parentActivityName=".MainActivity"
+            android:screenOrientation="userPortrait"
+            android:theme="@style/AppTheme4" />
+        <activity
+            android:name=".Child_Right.ChildRight"
+            android:label="@string/child_right_title"
+            android:parentActivityName=".Knowledge"
+            android:screenOrientation="userPortrait"
+            android:theme="@style/AppTheme3" />
+        <activity
+            android:name=".Play_Music"
+            android:screenOrientation="userPortrait"
+            android:label="ကေလးသီခ်င္းမ်ား"
+            android:theme="@style/AppTheme4" />
+        <activity
+            android:name=".Advice_baby"
+            android:label="@string/advice_letter"
+            android:parentActivityName=".Knowledge"
+            android:screenOrientation="userPortrait"
+            android:theme="@style/AppTheme3" />
+        <activity
+            android:name=".Advice_Item_Read"
+            android:parentActivityName=".Advice_baby"
+            android:screenOrientation="userPortrait"
+            android:label="ေဆာင္းပါးမ်ား"
+            android:theme="@style/AppThemeGyi" />
+        <activity
+            android:name=".Book_Activity"
+            android:parentActivityName=".Ententainment_Activity"
+            android:label="ရုပ္ျပစာအုပ္မ်ား"
+            android:theme="@style/AppTheme4" />
+        <activity
+            android:name=".Read_Diseases_Description"
+            android:parentActivityName=".Health_Activity"
+            android:theme="@style/AppThemeGyi" />
+        <activity
+            android:name=".Paint"
+            android:parentActivityName=".Ententainment_Activity"
+            android:screenOrientation="userPortrait"
+            android:label="ပုံဆြဲၾကမယ္"
+            android:theme="@style/AppTheme4" />
+        <activity
+            android:name=".Onread_Activity"
+            android:parentActivityName=".Book_Activity"
+            android:theme="@style/AppTheme4" />
+        <activity
+            android:name=".Articles_Activity"
+            android:parentActivityName=".Knowledge"
+            android:screenOrientation="userPortrait"
+            android:theme="@style/AppTheme3" />
+        <activity
+            android:name=".Article_Read_Activity"
+            android:parentActivityName=".Articles_Activity"
+            android:screenOrientation="userPortrait"
+            android:theme="@style/AppTheme3" />
+
+        <activity android:name=".About"
+            android:theme="@style/AppTheme3"
+            android:label="About of application"
+            android:parentActivityName=".MainActivity">
+
+
+        </activity>
+    </application>
+
+</manifest>

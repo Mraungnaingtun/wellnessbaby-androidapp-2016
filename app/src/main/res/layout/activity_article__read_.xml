@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/bakground"
+    tools:context="com.team15.lower.wellnessbaby.Article_Read_Activity">
+
+
+    <ImageView
+        android:id="@+id/advice_photo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/articles"
+        android:scaleType="fitXY"/>
+
+    <TextView
+        android:id="@+id/article_each_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="sdfdsadasdf"
+        android:layout_below="@+id/advice_photo"
+        android:layout_marginTop="5dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        android:textStyle="bold|italic"
+        android:background="@color/important_back"
+        android:textColor="#ffffff"/>
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/article_each_title"
+        android:layout_centerHorizontal="true"
+        android:scrollbars="vertical"
+        android:layout_marginTop="10dp"
+        android:fillViewport="true">
+
+        <TextView
+            android:id="@+id/article_each_description"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="asdfsdfsdf"
+            android:textStyle="bold"
+            android:layout_marginLeft="6dp"
+            android:layout_marginRight="6dp"
+            android:textSize="20dp"
+            />
+
+    </ScrollView>
+
+
+</RelativeLayout>

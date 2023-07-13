@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item>
+        <shape  >
+            <solid android:color="@color/entertainment_back"/>
+
+            <corners
+                android:bottomRightRadius="600dp"
+                android:bottomLeftRadius="600dp"
+                android:topLeftRadius="600dp"
+                android:topRightRadius="600dp"/>
+        </shape>
+
+    </item>
+</selector>

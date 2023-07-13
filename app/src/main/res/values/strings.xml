@@ -1,0 +1,212 @@
+<resources>
+    <string name="app_name">Wellness Baby</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="welcome_letter">
+        We are a team of samsung mobile Institute,If you wanna to use this software.
+    </string>
+
+    <string name="health_title">Healthy Baby</string>
+
+    <string name="important_title">Important For Children</string>
+
+    <string name="nutrition_title">Feds Baby Carefully</string>
+
+    <string name="timeline_title">TimeLine for your Baby</string>
+
+    <string name="entertainment_title">For Baby</string>
+
+    <string name="child_right_title">ကေလးသူငယ္အခြင့္အေရး</string>
+    <string name="kar_title">ကေလးအသက္ကိုေရႊးခ်ယ္ပါ</string>
+    <string-array name="day">
+        <item>ေမြးရက္</item>
+        <item>၁</item>
+        <item>၂</item>
+        <item>၃</item>
+        <item>၄</item>
+        <item>၅</item>
+        <item>၆</item>
+        <item>၇</item>
+        <item>၈</item>
+        <item>၉</item>
+        <item>၁၀</item>
+        <item>၁၁</item>
+        <item>၁၂</item>
+        <item>၁၃</item>
+        <item>၁၄</item>
+        <item>၁၅</item>
+        <item>၁၆</item>
+        <item>၁၇</item>
+        <item>၁၈</item>
+        <item>၁၉</item>
+        <item>၂၀</item>
+        <item>၂၁</item>
+        <item>၂၂</item>
+        <item>၂၃</item>
+        <item>၂၄</item>
+        <item>၂၅</item>
+        <item>၂၆</item>
+        <item>၂၇</item>
+        <item>၂၈</item>
+        <item>၂၉</item>
+        <item>၃၀</item>
+        <item>၃၁</item>
+    </string-array>
+
+    <string-array name="month">
+        <item>ေမြးလ</item>
+        <item>ဇြန္နဝါရီ</item>
+        <item>ေဖေဖာ္ဝါရီ</item>
+        <item>မတ္</item>
+        <item>ဧျပီ</item>
+        <item>ေမ</item>
+        <item>ဇြန္</item>
+        <item>ဇူလိွဳင္</item>
+        <item>ၾသဂုတ္</item>
+        <item>စက္တင္ဘာ</item>
+        <item>ေအာက္တိုဘာ</item>
+        <item>နိုဝင္ဘာ</item>
+        <item>ဒီဇင္ဘာ</item>
+    </string-array>
+
+
+    <string name="action_add_favourite">Add to Favourites</string>
+    <string name="action_play_next">Play Next</string>
+    <string name="backdrop_title">LOVE MUSIC</string>
+    <string name="backdrop_subtitle">This season top 20 albums</string>
+    <string-array name="date">
+
+        <item>ေမြးလ</item>
+        <item>ဇြန္နဝါရီ</item>
+        <item>ေဖေဖာ္ဝါရီ</item>
+        <item>မတ္</item>
+        <item>ဧျပီ</item>
+        <item>ေမ</item>
+        <item>ဇြန္</item>
+        <item>ဇူလိွဳင္</item>
+        <item>ၾသဂုတ္</item>
+        <item>စက္တင္ဘာ</item>
+        <item>ေအာက္တိုဘာ</item>
+        <item>နိုဝင္ဘာ</item>
+        <item>ဒီဇင္ဘာ</item>
+    </string-array>
+
+    <string-array name="year">
+        <item>ေမြးႏွစ္္</item>
+        <item>၂၀၁၀</item>
+        <item>၂၀၁၁</item>
+        <item>၂၀၁၂</item>
+        <item>၂၀၁၃</item>
+        <item>၂၀၁၄</item>
+        <item>၂၀၁၅</item>
+        <item>၂၀၁၆</item>
+        <item>၂၀၁၇</item>
+    </string-array>
+
+    <string name="health">
+       က်န္းမာျခင္းသည္ လာဒ္တစ္ပါး
+    </string>
+
+    <string name="myanmar_lb">ေပါင္</string>
+    <string name="myanmar_aunngsa"> ေအာင္စ</string>
+
+    <string name="myanmar_health">က်န္းမာေရး</string>
+    <string name="myanmar_nutrition">အာဟာရ</string>
+    <string name="myanmar_timeline">ကိုယ္ေရးအက်ဥ္း</string>
+    <string name="myanmar_important">ဗဟုသုတ</string>
+    <string name="myanmar_entertainment">ေဖ်ာ္ေျဖေရး</string>
+    <string name="myanmar_babyname">ကေလးအမည္</string>
+
+    <string name="myan_boy">က်ား</string>
+    <string name="myan_girl">မ</string>
+
+    <string-array name="letter_to_user">
+        <item>asdfksdfkjdskfhdsfd</item>
+    </string-array>
+
+    <string-array name="chosing_for_photo">
+        <item>Choose Photo</item>
+        <item>Take Photo</item>
+    </string-array>
+
+    <string name="advice_for_app">အၾကံေပးရန္</string>
+    <string name="action_new">အသစ္တစ္ေယာက္မွတ္မည္္</string>
+    <string name="action_edit">ထပ္ျဖည့္မယ္</string>
+    <string name="action_home">မူလစာမ်က္နာ</string>
+
+    <string name="action_saved">မွတ္ထားရာမ်ား</string>
+    <string name="action_website">အျခားဝက္ဆိုဒ္မ်ား</string>
+    <string name="action_first_home">မူလစာမ်က္နာ</string>
+    <string name="title_activity_user__saved">မွတ္ထားေသာစာရင္မ်ား</string>
+
+    <string name="check_for_present_name">မရိွေသးဘူး</string>
+    <string name="for_title_of_important">သင္တို႕ရဲ႕ခ်စ္စရာကေလးမ်ားဆီသို႔ေကာင္းဆုံးအၾကံေပးခ်က္</string>
+
+    <string name="child_right_letter">ကေလးအခြင့္အေရးမ်ား</string>
+    <string name="advice_letter">အၾကံေပးခ်က္မ်ားး</string>
+    <string name="report_letter">ေဆာင္းပါးမ်ား</string>
+
+
+    <string name="all_baby">ကေလးမ်ားအားလုံး</string>
+    <string name="new_saved">အသစ္မွတ္သားမည္</string>
+
+    <string name="update_letter">ထပ္ျပင္မည္</string>
+    <string name="title_activity_note_pad">NotePad</string>
+
+    <string-array name="note_pad">
+        <item>First Letter</item>
+        <item>Second Letters</item>
+        <item>Second Letters</item>
+        <item>Second Letters</item>
+        <item>Second Letters</item>
+        <item>Second Letters</item>
+        <item>Second Letters</item>
+        <item>Second Letters</item>
+        <item>Second Letters</item>
+        <item>Second Letters</item>
+        <item>Second Letters</item>
+        <item>Second Letters</item>
+    </string-array>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="alert_text_timeline">အၾကံေပးခ်က္</string>
+    <string name="after_born">ေမြးဖြားျပီး</string>
+    <string name="alert_text_timeline_des">ကေလးရဲ႕ကိုယ္ေရးအက်ဥ္းကိုျဖည့္စြပ္ရပါမည္</string>
+    <string name="yeah">ျဖည့္မည္</string>
+
+    <string name="page"> စာမ်က္နာ ** </string>
+
+
+    <string name="music">ေခ်ာ့သိပ္ေတးမ်ား</string>
+    <string name="draw">ပုံဆြဲၾကမယ္</string>
+    <string name="story">ကေလးပုံျပင္မ်ား</string>
+
+    <string-array name="age_group">
+        <item>ေမြးကာစ</item>
+        <item>၄ပါတ္(၁လ)</item>
+        <item>၆ပါတ္(၁လခြဲ)</item>
+        <item>၁၀ပါတ္(၂လခြဲ)</item>
+        <item>၁၄ပါတ္(၃လခြဲ)</item>
+        <item>၁၈ပါတ္(၄လခြဲ)</item>
+        <item>၆လ</item>
+        <item>၉လ</item>
+        <item>၁၅လ</item>
+        <item>၁၈လ</item>
+        <item>၂နွစ္</item>
+        <item>၄နွစ္</item>
+        <item>၅နွစ္</item>
+        <item>၁၀နွစ္</item>
+        <item>၁၅-၁၆နွစ္</item>
+    </string-array>
+
+    <string-array name="dayornightaa">
+        <item>day mode</item>
+        <item>night mode</item>
+    </string-array>
+
+    <string name="disea">ေရာဂါအမ်ိဳးအစား</string>
+    <string name="count">ၾကိမ္ေရ</string>-
+    <string name="vaccine">ကာကြယ္ေဆး</string>
+</resources>

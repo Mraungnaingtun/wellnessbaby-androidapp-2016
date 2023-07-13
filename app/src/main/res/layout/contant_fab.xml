@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab_one"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:src="@drawable/ic_action_plus"
+        android:layout_alignParentBottom="true"
+        android:elevation="6dp"
+        app:pressedTranslationZ="12dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="16dp"
+        android:layout_marginRight="32dp"/>
+
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab_two"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:src="@drawable/ic_action_plus"
+        android:elevation="6dp"
+        app:pressedTranslationZ="12dp"
+        android:backgroundTint="@color/colorPrimaryDark"
+        android:layout_above="@+id/fab_one"
+        android:labelFor="@string/child_right_title"
+        android:layout_alignLeft="@+id/fab_one"
+        android:layout_alignStart="@+id/fab_one"
+        android:layout_marginBottom="0dp"
+        android:visibility="invisible" />
+</RelativeLayout>

@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@+id/center_layout"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@color/colorPrimary"
+    android:layout_gravity="center"
+    android:layout_centerVertical="true"
+    android:layout_margin="30dp"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <EditText
+        android:id="@+id/baby_name"
+        android:layout_width="390dp"
+        android:layout_height="60dp"
+        android:hint="@string/myanmar_babyname"
+        android:textSize="20dp"
+        android:inputType="text"
+        android:layout_alignParentTop="true"
+        android:layout_alignLeft="@+id/date"
+        android:layout_alignStart="@+id/date" />
+    <CheckBox
+        android:id="@+id/no_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:text="@string/check_for_present_name"
+        android:layout_alignBottom="@id/baby_name"
+        android:layout_toRightOf="@id/baby_name"
+        android:layout_toEndOf="@id/baby_name" />
+
+    <Spinner
+        android:id="@+id/date"
+        android:layout_width="110dp"
+        android:layout_height="50dp"
+        android:layout_below="@id/baby_name"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="20dp"
+        android:textSize="30dp"/>
+
+    <Spinner
+        android:id="@+id/month"
+        android:layout_width="130dp"
+        android:layout_height="50dp"
+        android:textSize="30dp"
+        android:layout_alignTop="@id/date"
+        android:layout_centerHorizontal="true"/>
+
+    <Spinner
+        android:id="@+id/year"
+        android:layout_width="130dp"
+        android:layout_height="50dp"
+        android:textSize="30dp"
+        android:layout_alignTop="@id/month"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="20dp"/>
+
+    <EditText
+        android:id="@+id/baby_weight"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/date"
+        android:hint="အေလးခ်ိန္"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:textSize="20dp"
+        android:inputType="number"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/myanmar_lb"
+        android:layout_alignBaseline="@id/baby_weight"
+        android:layout_alignBottom="@id/baby_weight"
+        android:layout_toRightOf="@id/baby_weight"
+        android:layout_toEndOf="@id/baby_weight"
+        android:layout_marginLeft="20dp"
+        android:textSize="20dp"
+        android:id="@+id/textView2" />
+
+    <EditText
+        android:id="@+id/weight_aungsa"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:layout_alignBottom="@id/baby_weight"
+        android:layout_toLeftOf="@id/year"
+        android:layout_toStartOf="@id/year"
+        android:hint="အေလးခ်ိန္"
+        android:textSize="20dp"
+        android:inputType="number"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/myanmar_aunngsa"
+        android:layout_alignBottom="@id/textView2"
+        android:layout_alignLeft="@id/year"
+        android:layout_alignStart="@id/year"
+        android:layout_marginLeft="29dp"
+        android:layout_marginStart="29dp"
+        android:textSize="20dp" />
+
+</RelativeLayout>
